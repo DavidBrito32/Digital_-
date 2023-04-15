@@ -1,0 +1,158 @@
+/*ESPAÇO PARA IMPORTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bitter&family=Indie+Flower&family=Roboto+Slab&display=swap");
+
+/*FIM DO ESPAÇO PARA IMPORTS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-image: url("/images/FUNDO.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*FAZENDO A CONFIGURAÇÃO DO CABEÇALHO DO SITE*/
+
+header {
+  height: 200px;
+  background-color: black;
+  box-shadow: -20px 1px 35px;
+  display: flex;
+  color: #0cddb3;
+  align-items: center;
+}
+
+.logomarca {
+  margin: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
+
+.logomarca img {
+  width: 30%;
+}
+
+.menu > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu a {
+  font-size: 32px;
+  color: #0cddb3;
+  margin: 10px;
+  padding: 8px;
+}
+
+.menu a:hover {
+  background-color: rgb(20, 89, 89);
+  color: gold;
+  border-radius: 12px;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.menu a:active {
+  color: red;
+  background-color: #ffff;
+}
+
+/*INICIANDO A CONFIGURAÇÃO DO CONTEUDO DO MAIN DO SITE*/
+main {
+  margin-top: 10px;
+  color: #f09928;
+}
+
+article {
+  text-align: justify;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.Titulo {
+  /*REF AO H2 DO CONTENT*/
+  color: #2abda0;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Bangers", cursive;
+}
+.content {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudo {
+  width: 400px;
+}
+
+.img {
+  margin-top: 20px;
+  border: 2px solid #ffff;
+  border-radius: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.botao {
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+  margin-top: 10px;
+  background-color: #0cddb3;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* meio do site*/
+
+.meio {
+  text-align: center;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  background-color: black;
+}
+
+.diversos {
+  width: auto;
+  height: 240px;
+}
+
+/*CONFIGURANDO O RODAPÉ*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #0cddb3;
+  text-align: center;
+  width: auto;
+  height: 200px;
+  background-color: black;
+  font-size: 24px;
+  box-shadow: -14px 9px 10px #0cddb3 to top;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > img {
+  width: 20%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer > img:hover {
+  background-color: #200858;
+  cursor: pointer;
+  transition: 2s;
+}
